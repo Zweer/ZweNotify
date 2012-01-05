@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ZweNotify :: Example</title>
+
+    <link type="text/css" rel="stylesheet" href="../Source/themes/default/zwe-notify.css" />
+
+    <script type="text/javascript" src="js/mootools-core-1.4.2.js"></script>
+    <script type="text/javascript" src="../Source/zwe-notify.js"></script>
+    <script type="text/javascript">
+        window.addEvent('domready', function() {
+            var Notification = new ZweNotify();
+
+            document.id('link_bottomRight').addEvent('click', function(event) {
+                event.preventDefault();
+                Notification.alert('Test notification!!');
+            });
+        });
+    </script>
+</head>
+<body>
+
+<h1><a name="top">ZweNotify - Mootools Notifications</a></h1>
+<h2>Examples</h2>
+<h3>by Zweer</h3>
+
+<a id="link_bottomRight" href="#">Notification in the bottom right corner</a>
+
+</body>
+</html>

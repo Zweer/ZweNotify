@@ -1,0 +1,17 @@
+.zwenotify-notification {
+    width: 200px;
+    min-height: 50px;
+
+    margin: 10px 5px 5px;
+    
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+
+    background: black;
+    opacity: .8;
+
+    padding: 5px;
+
+    color: white;
+}
