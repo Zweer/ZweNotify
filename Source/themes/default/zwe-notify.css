@@ -1,17 +1,43 @@
 .zwenotify-notification {
+    position: relative;
+
     width: 200px;
     min-height: 50px;
 
-    margin: 10px 5px 5px;
+    margin: 15px 10px 10px;
     
     border-radius: 5px;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
 
     background: black;
-    opacity: .8;
 
     padding: 5px;
 
     color: white;
+}
+
+.zwenotify-close {
+    position: absolute;
+    right: -20px;
+    top: -21px;
+
+    width: 42px;
+    height: 42px;
+
+    background: url(close.png) no-repeat;
+
+    cursor: pointer;
+    
+    text-indent: -9999px;
+}
+
+.zwenotify-fx-close {
+    opacity: 0;
+}
+.zwenotify-fx-show {
+    opacity: .5;
+}
+.zwenotify-fx-hover {
+    opacity: 1;
 }
